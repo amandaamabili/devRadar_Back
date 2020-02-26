@@ -7,7 +7,7 @@ const axios = require('axios');
  
  module.exports = {
     async index(req,res){
-        const devs = await Dev.find();
+        const devs = await Dev.find()
 
         return res.json(devs);
     },
